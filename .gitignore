@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+*.err
+logs/
+*.ckpt
+*.pth
+*.pt
+
+# Models and datasets (tracked via DVC)
+data/
+models/
+
+# Others (optional, depending on project)
+*.tar.gz
+*.zip
+*.h5
+*.onnx
+*.joblib
+*.pkl
